@@ -6,3 +6,4 @@
 Eftir að uppsetningu lauk bjó ég til minn eigin notanda og breytti nafni tölvunnar í KEST2VW-SamuelRegnault samkvæmt kröfum verkefnisins. Að því loknu setti ég upp nauðsynlegan hugbúnað, þar á meðal Python 3 (64 bita), Visual Studio Code með Python stuðningi og Git.
 
 Ég prófaði að allt virkaði rétt með því að opna Python í skipanalínu og staðfesta að uppsetningin væri í lagi. Allar breytingar og uppsetningar voru skráðar í dagbók verkefnisins á GitHub.
+![python install](skjáskot/pythonþinstall.png)
