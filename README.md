@@ -1,1 +1,0 @@
-# KEST2VW-Lokaverkefni
