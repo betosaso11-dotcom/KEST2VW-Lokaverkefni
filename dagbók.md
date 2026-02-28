@@ -34,7 +34,7 @@ Eftir að uppsetningu lauk bjó ég til minn eigin notanda og breytti nafni töl
 ![python install](skjáskot/03_folder_structure.png)
 ![python install](skjáskot/innkaup_proper.png)
 ![python install](skjáskot/Sala_proper.png)
-![python install](skjáskot/yfirstjórn_proper.png)
+![python install](skjáskot/yfistjórn_proper.png)
 ## 2026-02-28 – Liður 4: Öryggismál
 
 Ég breytti lykilorðareglum þannig að lágmarkslengd lykilorða er 8 stafir með skipuninni net accounts.
