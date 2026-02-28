@@ -18,6 +18,7 @@ Eftir að uppsetningu lauk bjó ég til minn eigin notanda og breytti nafni töl
 Ég skrifaði PowerShell skriftu sem notar Import-Csv til að lesa upplýsingarnar úr skránni og býr sjálfkrafa til notendanafn, setur lykilorð og setur hvern notanda í réttan hóp (deildarhóp og Allir).
 
 Ég prófaði að skrá mig inn með nokkrum notendum til að tryggja að allir gætu skráð sig inn án vandamála.
+![python install](skjáskot/02_user_login_test.png)
 ## 2026-02-28 – Liður 3: Skrár, möppur og réttindi
 
 Ég bjó til möppuna C:\Gögn og innan hennar fjórar undirmöppur: Innkaup, Sala, Yfirstjórn og Sameign.
@@ -30,6 +31,10 @@ Eftir að uppsetningu lauk bjó ég til minn eigin notanda og breytti nafni töl
 - Kerfisstjórar (Administrators) og SYSTEM hafa fullan aðgang.
 
 Ég prófaði að skrá mig inn sem notandi úr mismunandi hópum til að tryggja að réttindin virkuðu rétt og að notendur fengju “Access denied” ef þeir reyndu að fara í ranga möppu.
+![python install](skjáskot/03_folder_structure.png)
+![python install](skjáskot/innkaup_proper.png)
+![python install](skjáskot/Sala_proper.png)
+![python install](skjáskot/yfirstjórn_proper.png)
 ## 2026-02-28 – Liður 4: Öryggismál
 
 Ég breytti lykilorðareglum þannig að lágmarkslengd lykilorða er 8 stafir með skipuninni net accounts.
@@ -39,3 +44,4 @@ Eftir að uppsetningu lauk bjó ég til minn eigin notanda og breytti nafni töl
 Ég stillti eldvegg Windows þannig að öll innkomandi netumferð er lokuð nema ping (ICMP). Þetta var gert með netsh advfirewall skipunum.
 
 Ég prófaði stillingarnar til að tryggja að þær virkuðu samkvæmt kröfum verkefnisins.
+![python install](skjáskot/04_firewall_configuration.png)
